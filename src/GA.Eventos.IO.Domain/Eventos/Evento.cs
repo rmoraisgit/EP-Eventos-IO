@@ -8,6 +8,25 @@ namespace GA.Eventos.IO.Domain.Eventos
 {
     public class Evento : Entity<Evento>
     {
+        public Evento(
+            string nome,
+            DateTime dataInicio,
+            DateTime dataFim,
+            bool gratuito,
+            decimal valor,
+            bool online,
+            string nomeEmpresa)
+        {
+            Id = Guid.NewGuid();
+            Nome = nome;
+            DataInicio = dataInicio;
+            DataFim = dataFim;
+            Gratuito = gratuito;
+            Valor = valor;
+            Online = online;
+            NomeEmpresa = nomeEmpresa;
+        }
+
         public string Nome { get; private set; }
         public string DescricaoCurta { get; private set; }
         public string DescricaoLonga { get; private set; }
