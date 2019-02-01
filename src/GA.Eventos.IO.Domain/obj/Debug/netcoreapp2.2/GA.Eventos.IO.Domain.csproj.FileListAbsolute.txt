@@ -1,0 +1,6 @@
+C:\Users\Rafael\Desktop\_Projetos\GA.Eventos.IO\src\GA.Eventos.IO.Domain\bin\Debug\netcoreapp2.2\GA.Eventos.IO.Domain.deps.json
+C:\Users\Rafael\Desktop\_Projetos\GA.Eventos.IO\src\GA.Eventos.IO.Domain\bin\Debug\netcoreapp2.2\GA.Eventos.IO.Domain.dll
+C:\Users\Rafael\Desktop\_Projetos\GA.Eventos.IO\src\GA.Eventos.IO.Domain\obj\Debug\netcoreapp2.2\GA.Eventos.IO.Domain.csprojAssemblyReference.cache
+C:\Users\Rafael\Desktop\_Projetos\GA.Eventos.IO\src\GA.Eventos.IO.Domain\obj\Debug\netcoreapp2.2\GA.Eventos.IO.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\_Projetos\GA.Eventos.IO\src\GA.Eventos.IO.Domain\obj\Debug\netcoreapp2.2\GA.Eventos.IO.Domain.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\_Projetos\GA.Eventos.IO\src\GA.Eventos.IO.Domain\obj\Debug\netcoreapp2.2\GA.Eventos.IO.Domain.AssemblyInfo.cs
