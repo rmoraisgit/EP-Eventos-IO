@@ -8,6 +8,8 @@ namespace GA.Eventos.IO.Domain.Eventos
 {
     public class Evento : Entity<Evento>
     {
+        private Evento() { }
+
         public Evento(
             string nome,
             DateTime dataInicio,
@@ -113,5 +115,33 @@ namespace GA.Eventos.IO.Domain.Eventos
         }
 
         #endregion
+
+        public static class EventoFactory
+        {
+            public static Evento NovoEventoCompleto(Guid id, string nome, string descCurta, string descLonga,
+                                                    DateTime dataInicio, DateTime dataFim, bool gratuito, decimal valor,
+                                                    bool online, string nomeEmpresa, bool excluido, Guid? organizadorId)
+            {
+                var evento = new Evento()
+                {
+                    Id = id,
+                    Nome = nome,
+                    DescricaoCurta = descCurta,
+                    DescricaoLonga = descLonga,
+                    DataInicio = dataInicio,
+                    DataFim = dataFim,
+                    Gratuito = gratuito,
+                    Valor = valor,
+                    Online = online,
+                    NomeEmpresa = nomeEmpresa,
+                    Excluido = excluido
+                };
+
+                if(organizadorId!=null)
+                    evento
+
+                return evento;
+            }
+        }
     }
 }
